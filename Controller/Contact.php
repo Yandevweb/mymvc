@@ -18,6 +18,8 @@ class Controller_Contact
 			} else if ($_POST['happy'] == "non"){
 				$this->result['happy'] = 'Pas cool.. :(';
 			}
+		} else {
+			$this->result['happy'] = "Tu pourrais répondre !";
 		}
 
 		$view = new Controller_View(array('Contact/Form'));
