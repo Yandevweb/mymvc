@@ -14,7 +14,7 @@ class Controller_Contact
 
 		if (isset($_POST['happy']) && !empty($_POST['happy'])){
 			if ($_POST['happy'] == 'oui'){
-				$this->result['happy'] = 'Hey tu est content ! :D';
+				$this->result['happy'] = 'Hey tu es content ! :D';
 			} else if ($_POST['happy'] == "non"){
 				$this->result['happy'] = 'Pas cool.. :(';
 			}
